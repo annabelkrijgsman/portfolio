@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://kit.fontawesome.com/5ae200cc01.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Catamaran:700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <nav class="nav">
+                <a href="#intro" class="nav-item"><i class="fas fa-home"></i></a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#practice" class="nav-item">Practice</a>
+            </nav>
+            <section id="intro">
+				<div class="circle circle1"></div>
+				<div class="circle circle2"></div>
+				<div class="circle circle3"></div>
+				<div class="circle circle4"></div>
+				<div class="container">
+					<div id="intro_1">
+						<p id="intro">
+							Full-Stack Developer<br>
+							based in The Netherlands
+						</p>
+					</div>
+					<div id="intro_2">
+						<h1>
+							Welcome
+							<span class="color">.</span>
+							<br>
+							I am
+							<br>
+							Annabel
+						</h1>
+					</div>
+				</div>
+				<li class="social">
+					<a href="https://linkedin.com/in/annabelkrijgsman/" target="_blank" class="social-item">LINKEDIN</a>
+					<a href="https://github.com/annabelkrijgsman" target="_blank" class="social-item">GITHUB</a>
+				</li>
+            </section>
+            <section id="about">
+				<div class="about">
+					<h2>About<span class="color">.</span></h2>
+					<!--<div class="about">
+						<p>I am a Full-Stack Developer based in The Netherlands. I am a dreamer and a fanatic of all 'nerdy' things. I love creating functional websites and pie. Gamer and soon to be guitar player.</p>
+					</div>-->
+				</div>
+			</section>
+            <section id="practice">
+				<div class="practice">
+					<h2>Practice<span class="color">.</span></h2>
+					<!--Analog Clock-->
+					<button onclick="on()">JavaScript<br>Analog Clock</button>
+					<div id="overlay" onclick="off()">
+						<i id="cross" class="fas fa-times"></i>
+						<div id="clock">
+							<h3>JavaScript Analog Clock</h3>
+							<canvas id="canvas" width="400" height="400" style="background-color:#fffaf0"></canvas>
+						</div>
+					</div>
+					<!--To Do List-->
+<!--					<button onclick="on()">JavaScript<br>To Do List</button>
+					<div id="overlay" onclick="off()">
+						<i id="cross" class="fas fa-times"></i>
+						<div id="todo">
+							<h3>JavaScript To Do List</h3>
+							
+						</div>
+					</div>-->
+				</div>
+            </section>
+        </main>
+        <footer></footer>
+		<script src="js/main.js"></script>
+    </body>
+</html>
